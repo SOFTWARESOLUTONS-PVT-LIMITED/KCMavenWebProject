@@ -5,7 +5,7 @@
   <groupId>com.kctechnologies</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>4.0-SNAPSHOT</version>
+  <version>5.0-SNAPSHOT</version>
   <name>Maven Web Project</name>
   <description>Maven Web Project for Java</description>
 	
@@ -13,8 +13,8 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
- <!--	 	<sonar.host.url>http://34.143.201.151:9000</sonar.host.url>
-	        <sonar.login>84b07c17743e5dc5af83399171de5b6d59bbbe06</sonar.login> -->
+ <!--	 	<sonar.host.url>http://34.116.206.130:9000/</sonar.host.url>
+	        <sonar.login>a5c51557120d935b5b880e80b9cfbbf6c1473cb3</sonar.login> -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -82,12 +82,12 @@
         <repository>
           <id>nexus</id>
           <name> Releases Nexus Repository</name>
-          <url>http://34.68.17.41:8081/repository/maven2-host-rele/</url>
+          <url>http://35.240.144.33:8081/repository/maven2-host-rele/</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
-          <name> Snapshot Nexus Repository </name>
-           <url>http://34.68.17.41:8081/repository/maven2-host/</url>
+          <name>Snapshot Nexus Repository </name>
+           <url>http://35.240.144.33:8081/repository/maven2-host-snap/</url>
         </snapshotRepository>
    </distributionManagement>
 	
